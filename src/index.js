@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Navigation } from './components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navigation, Home } from './components';
 
 ReactDOM.render(
   <Router>
     <Navigation />
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   </Router>,
   document.getElementById('root')
 );

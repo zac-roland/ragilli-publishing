@@ -7,13 +7,13 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            React Multi-Page Website
+            RAGilli Publishing
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Home
+                <NavLink className="nav-link" to="/library">
+                  Library
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
@@ -28,8 +28,8 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Blog
+                <NavLink className="nav-link" to="/store">
+                  Store
                 </NavLink>
               </li>
             </ul>

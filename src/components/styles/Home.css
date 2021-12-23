@@ -1,0 +1,8 @@
+.home-background {
+  background-image: url(../../images/beach.jpg);
+  background-attachment: fixed;
+}
+
+.robert-image {
+  min-height: 1002px;
+}
